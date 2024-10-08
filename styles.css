@@ -1,0 +1,276 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #1b1b1b; /* Dark background */IMG-20240219-WA0014/
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Hero section */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #121212;
+  padding: 0 20px;
+}
+
+/* Navigation bar */
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: rgba(0, 0, 0, 0.7); /* Slightly transparent nav background */
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e5e5e5;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00bcd4;
+}
+
+/* Hero content */
+.hero-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #bbbbbb;
+}
+
+/* Buttons */
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 30px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #00bcd4;
+  color: #121212;
+}
+
+.btn-primary:hover {
+  background-color: #008c9e;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #00bcd4;
+  border: 2px solid #00bcd4;
+}
+
+.btn-secondary:hover {
+  background-color: #00bcd4;
+  color: #121212;
+}
+
+/* Sign-in and Sign-up buttons */
+.sign-in, .sign-up {
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+.sign-in {
+  background-color:IMG-20240219-WA0014 transparent;
+  color: #ffffff;
+}
+
+.sign-in:hover {
+  color: #00bcd4;
+}
+
+.sign-up {
+  background-color: #00bcd4;
+  color: #121212;
+}
+
+.sign-up:hover {
+  background-color: #008c9e;
+}
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #121212; /* Dark background */
+  color: #fff;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Hero section */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #1e1e1e;
+  padding: 0 20px;
+  position: relative;
+}
+
+/* Navigation bar */
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: rgba(0, 0, 0, 0.8); /* Slight transparency */
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #1db954; /* Green hover effect */
+}
+
+/* Hero content */
+.hero-content h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #cccccc;
+}
+
+/* Buttons */
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 30px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #1db954; /* Spotify green */
+  color: #121212;
+}
+
+.btn-primary:hover {
+  background-color: #17a344;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #1db954;
+  border: 2px solid #1db954;
+}
+
+.btn-secondary:hover {
+  background-color: #1db954;
+  color: #121212;
+}
+
+/* Sign-in and Sign-up buttons */
+.sign-in, .sign-up {
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+.sign-in {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.sign-in:hover {
+  color: #1db954;
+}
+
+.sign-up {
+  background-color: #1db954;
+  color: #121212;
+}
+
+.sign-up:hover {
+  background-color: #17a344;
+}
